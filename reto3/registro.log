@@ -1,0 +1,17 @@
+[2021-47-06 22:47:06] [INFO ] [CinemaService:43] Se guardo el cinema con nombre: Sala 4 CC Santa fe
+[2021-48-06 22:48:01] [INFO ] [CinemaService:26] Se buscaron todos los cinemas
+[2021-01-07 17:01:44] [INFO ] [CategoryService:43] Se guardo la categoria con nombre: Sala 4 CC Santa fe
+[2021-02-07 17:02:11] [INFO ] [CinemaService:26] Se buscaron todos los cinemas
+[2021-02-07 17:02:24] [INFO ] [CinemaService:43] Se guardo el cinema con nombre: Sala 4 CC Santa fe
+[2021-02-07 17:02:32] [ERROR] [GlobalExceptionHandler:23] Dato Inconsistente en registro [JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com_reto3_ciclo3.reto3.model.Cinema>` from Integer value (token `JsonToken.VALUE_NUMBER_INT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<com_reto3_ciclo3.reto3.model.Cinema>` from Integer value (token `JsonToken.VALUE_NUMBER_INT`)
+ at [Source: (PushbackInputStream); line: 4, column: 16] (through reference chain: com_reto3_ciclo3.reto3.model.Category["cinemas"])]
+[2021-04-07 17:04:19] [INFO ] [CategoryService:26] Se buscaron todos las categorias
+[2021-04-07 17:04:56] [INFO ] [CinemaService:43] Se guardo el cinema con nombre: Sala 4 CC Santa fe
+[2021-06-07 17:06:39] [INFO ] [CategoryService:26] Se buscaron todos las categorias
+[2021-06-07 18:06:40] [INFO ] [CategoryService:43] Se guardo la categoria con nombre: cat1
+[2021-08-07 18:08:21] [INFO ] [CategoryService:43] Se guardo la categoria con nombre: cat1
+[2021-09-07 18:09:04] [INFO ] [CategoryService:26] Se buscaron todos las categorias
+[2021-12-07 18:12:26] [ERROR] [GlobalExceptionHandler:23] Dato Inconsistente en registro [JSON parse error: Unexpected character ('{' (code 123)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unexpected character ('{' (code 123)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 5, column: 10] (through reference chain: com_reto3_ciclo3.reto3.model.Cinema["category"])]
+[2021-12-07 18:12:36] [INFO ] [CinemaService:43] Se guardo el cinema con nombre: null
+[2021-14-07 18:14:01] [INFO ] [CinemaService:26] Se buscaron todos los cinemas
